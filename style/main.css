@@ -37,3 +37,20 @@
 .contacts .contact:hover span{
     color: #1b1b9b!important;
 }
+.section-title{
+    letter-spacing: 3px;
+    font-size: large;
+    color: #101064;
+    margin-top: 2.5em;
+}
+.achievements{
+    list-style: square!important;
+}
+.item{
+    margin-top: 10px;
+}
+.item .year{
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: italic;
+}
