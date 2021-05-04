@@ -1,4 +1,11 @@
 .avatar img{
-    width: 200%;
+    max-width: 100%;
     height: auto;
+}
+.intro{
+    color: #1b1b9b;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    text-align: justify;
 }
