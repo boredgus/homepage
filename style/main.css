@@ -1,0 +1,63 @@
+.page{
+    background-color: #e9e9e9;
+}
+.avatar img{
+    max-width: 70%;
+    height: auto;
+}
+.intro{
+    color: #831717;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.conatcts a{
+    text-decoration: none;
+}
+.contacts h4{
+    color: #831717;
+    font-size: 2em;
+}
+.contacts .links{
+    display: flex;
+    flex-direction: row;
+}
+.contacts .contact{
+    display: flex;
+    flex-direction: row;
+}
+.contacts .contact img{
+    width: 20px;
+}
+.contacts .contact span{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px 0 5px;
+    color: #000!important;
+    transition: .2s;
+}
+.contacts .contact:hover span{
+    color: #1b1b9b!important;
+}
+.section-title{
+    letter-spacing: 3px;
+    font-size: large;
+    color: #831717;
+    margin-top: 2.5em;
+}
+.item{
+    margin-top: 10px;
+}
+.item .year{
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: italic;
+}
+section .languages{
+    list-style-type: none;
+}
+.fact{
+    font-style: italic;
+    text-indent: 25px;
+}
