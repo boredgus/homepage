@@ -1,0 +1,39 @@
+.avatar img{
+    max-width: 100%;
+    height: auto;
+}
+.intro{
+    color: #1b1b9b;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    text-align: justify;
+}
+.conatcts a{
+    text-decoration: none;
+}
+.contacts h4{
+    color: #030347;
+    font-size: 2em;
+}
+.contacts .links{
+    display: flex;
+    flex-direction: row;
+}
+.contacts .contact{
+    display: flex;
+    flex-direction: row;
+}
+.contacts .contact img{
+    width: 20px;
+}
+.contacts .contact span{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px 0 5px;
+    color: #000!important;
+    transition: .2s;
+}
+.contacts .contact:hover span{
+    color: #1b1b9b!important;
+}
