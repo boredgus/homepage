@@ -1,9 +1,12 @@
+.page{
+    background-color: #e9e9e9;
+}
 .avatar img{
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 .intro{
-    color: #1b1b9b;
+    color: #831717;
     line-height: 1.5;
     letter-spacing: 1px;
     font-size: 1.1em;
@@ -13,7 +16,7 @@
     text-decoration: none;
 }
 .contacts h4{
-    color: #030347;
+    color: #831717;
     font-size: 2em;
 }
 .contacts .links{
@@ -36,4 +39,25 @@
 }
 .contacts .contact:hover span{
     color: #1b1b9b!important;
+}
+.section-title{
+    letter-spacing: 3px;
+    font-size: large;
+    color: #831717;
+    margin-top: 2.5em;
+}
+.item{
+    margin-top: 10px;
+}
+.item .year{
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: italic;
+}
+section .languages{
+    list-style-type: none;
+}
+.fact{
+    font-style: italic;
+    text-indent: 25px;
 }
