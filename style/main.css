@@ -6,7 +6,7 @@
     height: auto;
 }
 .intro{
-    color: #571408;;
+    color: #681010;
     line-height: 1.5;
     letter-spacing: 1px;
     font-size: 1.1em;
@@ -16,7 +16,7 @@
     text-decoration: none;
 }
 .contacts h4{
-    color: #571408;
+    color: #681010;
     font-size: 2em;
 }
 .contacts .links{
@@ -43,7 +43,7 @@
 .section-title{
     letter-spacing: 3px;
     font-size: large;
-    color: #101064;
+    color: #831717;
     margin-top: 2.5em;
 }
 .item{
@@ -57,6 +57,7 @@
 section .languages{
     list-style-type: none;
 }
-ul{
-    list-style-type: square!important;
+.fact{
+    font-style: italic;
+    text-indent: 25px;
 }
