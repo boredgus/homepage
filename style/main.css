@@ -1,5 +1,5 @@
 .page{
-    background-color: #e9e9e9;
+    background-color: #e9e9e9;   
 }
 .avatar img{
     max-width: 70%;
@@ -60,4 +60,22 @@ section .languages{
 .fact{
     font-style: italic;
     text-indent: 25px;
+}
+
+.animation{
+    opacity: 0;
+    animation-duration: 1s;
+    animation-name: appearance;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes appearance
+{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
