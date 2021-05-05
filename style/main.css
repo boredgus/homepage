@@ -1,81 +1,93 @@
-.page{
-    background-color: #e9e9e9;   
+.page {
+  background-color: #e9e9e9;
 }
-.avatar img{
-    max-width: 70%;
-    height: auto;
+.avatar img {
+  max-width: 70%;
+  height: auto;
 }
-.intro{
-    color: #831717;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-size: 1.1em;
-    text-align: justify;
+.intro {
+  color: #831717;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  text-align: justify;
 }
-.conatcts a{
-    text-decoration: none;
+.conatcts a {
+  text-decoration: none;
 }
-.contacts h4{
-    color: #831717;
-    font-size: 2em;
+.contacts h4 {
+  color: #831717;
+  font-size: 2em;
 }
-.contacts .links{
-    display: flex;
-    flex-direction: row;
+.contacts .links {
+  display: flex;
+  flex-direction: row;
 }
-.contacts .contact{
-    display: flex;
-    flex-direction: row;
+.contacts .contact {
+  display: flex;
+  flex-direction: row;
 }
-.contacts .contact img{
-    width: 20px;
+.contacts .contact img {
+  width: 20px;
 }
-.contacts .contact span{
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0 20px 0 5px;
-    color: #000!important;
-    transition: .2s;
+.contacts .contact span {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 20px 0 5px;
+  color: #000 !important;
+  transition: 0.2s;
 }
-.contacts .contact:hover span{
-    color: #1b1b9b!important;
+.contacts .contact:hover span {
+  color: #1b1b9b !important;
 }
-.section-title{
-    letter-spacing: 3px;
-    font-size: large;
-    color: #831717;
-    margin-top: 2.5em;
+.section-title {
+  letter-spacing: 3px;
+  font-size: large;
+  color: #831717;
+  margin-top: 2.5em;
 }
-.item{
-    margin-top: 10px;
+.item {
+  margin-top: 10px;
 }
-.item .year{
-    font-weight: bold;
-    font-size: 1.1em;
-    font-style: italic;
+.item .year {
+  font-weight: bold;
+  font-size: 1.1em;
+  font-style: italic;
 }
-section .languages{
-    list-style-type: none;
+section .languages {
+  list-style-type: none;
 }
-.fact{
-    font-style: italic;
-    text-indent: 25px;
+.fact {
+  font-style: italic;
+  text-indent: 25px;
 }
 
-.animation{
-    opacity: 0;
-    animation-duration: 1s;
-    animation-name: appearance;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
+.animation {
+  opacity: 0;
+
+  animation-name: appearance;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+
+  -moz-animation-name: appearance;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-timing-function: linear;
+
+  -webkit-animation-name: appearance;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
 }
-@keyframes appearance
-{
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+@keyframes appearance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
